@@ -141,7 +141,7 @@ genes <- genes[!duplicated(genes[,1]),]
 genes[which(genes[,1] == "AMHR2"),2] <- "Testis"
 
 # order by tissue and enrichment type
-x <- x[order(genes[,2], genes[,3], decreasing = T),]
+x <- x[order(genes[,2], genes[,3], decreasing = F),]
 
 
 
